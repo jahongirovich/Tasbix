@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-gray-100">
+
+    <div class="flex items-center gap-6 bg-white p-6 rounded-xl shadow-lg">
+        <button 
+            id="minus"
+            class="w-12 h-12 flex items-center justify-center text-2xl font-bold 
+                   bg-red-500 text-white rounded-full hover:bg-red-600 active:scale-95 transition">
+            −
+        </button>
+
+        <span 
+            id="count"
+            class="text-3xl font-semibold text-gray-800 w-12 text-center">
+            0
+        </span>
+
+        <button 
+            id="plus"
+            class="w-12 h-12 flex items-center justify-center text-2xl font-bold 
+                   bg-green-500 text-white rounded-full hover:bg-green-600 active:scale-95 transition">
+            +
+        </button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
